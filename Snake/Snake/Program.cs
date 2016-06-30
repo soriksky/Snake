@@ -13,8 +13,8 @@ namespace Snake
             Point p1 = new Point(3,4,'#');
             p1.Draw();
 
-            List < Point > listPoint = new List<Point>();
-            listPoint.Add(p1);
+            HorisontalLine pList = new HorisontalLine(5, 10, 8, '+');
+            pList.Draw();
             Console.ReadLine();
         }
     }
